@@ -9,6 +9,7 @@
     background: linear-gradient(transparent 0%, #2f150b 70% 100%);
 }
 .buttons {
+    font-size: 3em;
     margin-left: 2em;
     margin-right: 2em;
     color: aquamarine;
@@ -27,4 +28,8 @@
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+}
+.soil_tile{
+    position:absolute;
+    z-index:-1;
 }
