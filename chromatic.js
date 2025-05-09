@@ -61,7 +61,7 @@ function makeSoilTile() {
     collection.replaceChildren(...new_images);
 
     let not_button = document.getElementById("not_button");
-    not_button.style.height =`${scale * 122}px`
+    not_button.style.height =`${scale * 122 + 2}px`
 }
 
 document.addEventListener(
