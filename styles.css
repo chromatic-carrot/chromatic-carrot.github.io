@@ -7,9 +7,19 @@ body{
     grid-template-rows: auto auto 5fr;
     overflow-x: hidden;
 }
-.title{
+.title-r{
     font-size: 7em;
     text-align: center;
+    grid-column:1;
+    grid-row:1;
+    text-align: right;
+}
+.title-l{
+    font-size: 7em;
+    text-align: center;
+    grid-column:3;
+    grid-row:1;
+    text-align: left;
 }
 .buttons-row{
     grid-column:1/4;
@@ -23,6 +33,8 @@ body{
     margin-right: 2em;
     color: aquamarine;
     z-index: 1;
+    text-align: center;
+    grid-row:2;
 }
 
 .bebas-neue-regular {
@@ -38,6 +50,8 @@ body{
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+    text-align: left;
+    padding-left: 4em;
 }
 .soil_tile{
     position:absolute;
