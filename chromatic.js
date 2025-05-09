@@ -16,14 +16,14 @@ function makeSoilTile() {
 
     let new_images= [];
     // first add right images
-    for(let i = 0; i < left_nr; i++) {
+    for(let i = 0; i < left_nr+1; i++) {
       let img_1 = document.createElement('img');
       img_1.setAttribute('src', 'images/soil_top_seamless_270.png');
       img_1.style=`width:${targetRect.width};`;
       new_images.push(img_1)
 
       img_1.classList.add("soil_tile")
-      img_1.style.left = `${relativeRight -1 + i*targetRect.width}px` // right next to it
+      img_1.style.left = `${relativeRight -1 + (i-1)*targetRect.width}px` // right next to it
       img_1.style.top = `${relativeTop - scale * 122}px`
     }
     // now on the left
