@@ -1,3 +1,12 @@
+body{
+    margin: 0;
+    background-color: #bac3cd;
+    user-select: none;
+    display:grid;
+    grid-template-columns:2fr 1fr 2fr;
+    grid-template-rows: auto auto 5fr;
+    overflow-x: hidden;
+}
 .title{
     font-size: 7em;
     text-align: center;
