@@ -6,7 +6,7 @@ body{
 }
 .grid{
     display:grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns:33% 34% 33%;
     grid-template-rows: 13em 4em auto 5fr;
     overflow-x: hidden;
     background-color: #bac3cd;
