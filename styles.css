@@ -7,7 +7,7 @@ body{
 .grid{
     display:grid;
     grid-template-columns:33% 34% 33%;
-    grid-template-rows: 13em auto auto;
+    grid-template-rows: calc(min(13em, 33vw)) auto auto;
     overflow-x: hidden;
     background-color: #D7EDF4;
     max-width: 1280px;
@@ -18,12 +18,12 @@ body{
     margin-top:2px;
     grid-column:1;
     grid-row:1;
-    height: 100%;
+    height:calc(min(100%, 33vw));
     z-index:1;
     justify-self: end;
 }
 .title{
-    font-size: 7em;
+    font-size: calc(min(7em, 18vw));
     padding-top: 0.25em;
     line-height: 0.75em;
     grid-column:2/4;
@@ -43,9 +43,7 @@ body{
     background-color: #e6f8fd;
 }
 .btn_common {
-    font-size: 3em;
-    margin-left: 2em;
-    margin-right: 2em;
+    font-size: 2.5em;
     z-index: 1;
     text-align: center;
     grid-row:2;
@@ -64,14 +62,15 @@ body{
     font-style: normal;
 }
 .open-sans {
+    font-size: 1.2em;
+    user-select: text;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 320;
+    font-weight: 360;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
     text-align: left;
-    padding-left: 4em;
 }
 .soil_tile{
     position:absolute;
