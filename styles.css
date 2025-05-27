@@ -64,10 +64,11 @@ body{
     font-style: normal;
 }
 .open-sans {
+    font-size: large;
     user-select: text;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 320;
+    font-weight: 360;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
