@@ -76,3 +76,10 @@ body{
     position:absolute;
     z-index:-1;
 }
+.custom_li{
+    background-size: 1.1em;
+    list-style: none;
+    background-repeat: no-repeat;
+    padding: 0 0 0 2em;
+    background-position: left center;
+}
