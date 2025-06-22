@@ -83,3 +83,14 @@ body{
     padding: 0 0 0 2em;
     background-position: left center;
 }
+.paragraph{
+    border-radius: 15px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.bordered_p{
+    border: 1px solid lightgray;
+}
+.main_p {
+    background-color: azure;
+}
